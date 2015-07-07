@@ -20,8 +20,10 @@ The advantage of templates is that you put the bulk of your html in another file
 The template is the view of the MVC model. This is where our python is embedded into our HTML. HTML embedded in code is difficult to maintain. It's better to use a templating system, where the HTML is kept in a separate file with special syntax to indicate where the data from the application appears. There are many templating systems for Python: <a href="https://docs.djangoproject.com/en/dev/topics/templates/Django">Django</a>, and <a href="http://jinja.pocoo.org/docs/dev/Jinja2">Jinja</a> are just a few. You can use your template engine of choice by bundling it with your application code.
 
 **Code Along: Templating**
++ Clone this repo onto your local machine or you can use the Boilerplate Code below
++ Boilerplate code: 
 
-+ Boilerplate code: Copy and save into helloworld.py
++ Copy and save into helloworld.py
 
 ```python
 import webapp2 #webapp2 is a module that you import
