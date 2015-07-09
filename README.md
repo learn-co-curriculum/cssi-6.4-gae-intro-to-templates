@@ -13,7 +13,7 @@ There are many templating systems for Python: <a href="https://docs.djangoprojec
 Let's start with a simple page:
 
 **Code Along: Templating**
-+ Clone this repo into the development directory of your local machine, or you can use the Boilerplate Code below.
++ Clone the repo into the development directory of your local machine, or you can use the Boilerplate Code below.
 
 + Copy and save this into helloworld.py
 
