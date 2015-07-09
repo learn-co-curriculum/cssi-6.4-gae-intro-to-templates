@@ -12,7 +12,11 @@ There are many templating systems for Python: <a href="https://docs.djangoprojec
 
 Let's start with a simple page:
 
-+ Boilerplate code: Copy and save into main.py
+**Code Along: Templating**
++ Clone this repo onto your local machine or you can use the Boilerplate Code below.
+
++ Copy and save into helloworld.py
+
 
 ```python
 import webapp2 #webapp2 is a module that you import
@@ -28,10 +32,10 @@ routes = [  #a list of tuples mapping paths to handlers
 
 app = webapp2.WSGIApplication(routes, debug=True) #creates a WSGIApplication and assigns it to the variable app. app.yaml is pointed to this object
 ```
-+ Now we need to tell <kbd>app.yaml</kbd> where to find our app (<kbd>appengine-practice.app</kbd>) and the <kbd>webapp2</kbd> library.
++ Now we need to tell <kbd>app.yaml</kbd> where to find our app (<kbd>helloworld.app</kbd>) and the <kbd>webapp2</kbd> library.
 
 ```python
-application: appengine-practice
+application: helloworld
 version: 1
 runtime: python27
 api_version: 1
@@ -39,14 +43,14 @@ threadsafe: false
 
 handlers:
 - url: /.*
-  script: appengine-practice.app
+  script: helloworld.app
 
 libraries:
 - name: webapp2
   version: latest
 ```
 
-+ Run your app using the AppEngineLauncher and Open your page in the browser.
++ Run your app using the AppEngineLauncher by Adding and Existing Application, and then open your page in the browser.
 
 #Templating
 
@@ -85,7 +89,7 @@ handlers:
   upload: favicon\.ico
 
 - url: .*
-  script: main.app
+  script: helloworld.app
 
  libraries:
 - name: jinja2
@@ -93,7 +97,7 @@ handlers:
 - name: webapp2
   version: "2.5.1"
 ```
-  + And Edit main.py to add jinja at the top of the page, plus add jinja to the handler in main.py
+  + And Edit helloworld.py to add jinja at the top of the page, plus add jinja to the handler in helloworld.py
 
 ```python  
 import jinja2
