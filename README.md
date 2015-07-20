@@ -31,7 +31,7 @@ class CountHandler(webapp2.RequestHandler):
       self.response.write(i)
 
 app = webapp2.WSGIApplication([
-  ('/', MainHandler)
+  ('/', MainHandler),
   ('/count', CountHandler),
 ], debug=True) #creates a WSGIApplication and assigns it to the variable app. app.yaml is pointed to this object
 ```
