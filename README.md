@@ -8,7 +8,7 @@ languages: python
 
 The **template** is the view of the MVC model. This is where our python is embedded into our HTML.  
 
-There are many templating systems for Python: <a href="https://docs.djangoproject.com/en/dev/topics/templates/Django">Django</a>, and <a href="http://jinja.pocoo.org/docs/dev/Jinja2">Jinja</a> are just a few. You can use your template engine of choice by bundling it with your application code.
+There are many templating systems for Python: <a href="https://docs.djangoproject.com/en/dev/topics/templates/Django">Django</a>, and <a href="http://jinja.pocoo.org/">Jinja</a> are just a few. You can use your template engine of choice by bundling it with your application code.
 
 Let's start with a simple page:
 
