@@ -49,7 +49,6 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-handlers:
 - url: /.*
   script: main.app
 
