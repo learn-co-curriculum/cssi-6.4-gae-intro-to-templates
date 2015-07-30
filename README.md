@@ -1,8 +1,4 @@
----
-tags: cssi, gae, python, templates
-level: 2
-languages: python
----
+
 
 #Google App Engine: Intro to Templates
 
