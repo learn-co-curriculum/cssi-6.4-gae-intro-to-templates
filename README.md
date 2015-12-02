@@ -117,3 +117,5 @@ class MainHandler(webapp2.RequestHandler):
         self.response.out.write(template.render())
 ```
 +   You can run the app and, Hooray we have styling!
+
+<a href='https://learn.co/lessons/cssi-6.4-gae-intro-to-templates' data-visibility='hidden'>View this lesson on Learn.co</a>
