@@ -118,4 +118,4 @@ class MainHandler(webapp2.RequestHandler):
 ```
 +   You can run the app and, Hooray we have styling!
 
-<a href='https://learn.co/lessons/cssi-6.4-gae-intro-to-templates' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cssi-6.4-gae-intro-to-templates' title='Google App Engine: Intro to Templates'>Google App Engine: Intro to Templates</a> on Learn.co and start learning to code for free.</p>
